@@ -1,0 +1,11 @@
+{
+  "name": "crystal-cascade",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Crystal Cascade: a gem-matching puzzle game, packaged as an installable PWA.",
+  "scripts": {
+    "dev": "npx --yes serve public -l 3000",
+    "icons": "npm install --no-save sharp && node tools/make-icons.mjs"
+  },
+  "license": "UNLICENSED"
+}
