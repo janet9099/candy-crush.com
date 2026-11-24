@@ -1,6 +1,6 @@
 // Crystal Cascade service worker: lets the game install and play offline.
 // Bump VERSION whenever any file in CORE changes so phones pick up the update.
-const VERSION = 'v2';
+const VERSION = 'v3';
 const CORE_CACHE = `cc-core-${VERSION}`;
 const FONT_CACHE = 'cc-fonts';
 const CORE = [
